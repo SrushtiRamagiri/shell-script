@@ -10,3 +10,9 @@ else
     echo "You are root user"
 fi
 yum install mysql -y
+
+if[ $? -ne 0] # validate weater mysql installed successfully or not
+then
+    echo "MySQL INstallation failed"
+else
+    echo "MySQL INstallation success"
