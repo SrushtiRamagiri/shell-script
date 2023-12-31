@@ -6,6 +6,6 @@ increase(){
     NUM=$((NUM + 1))
     return
 }
-
+ 
 increase
 echo "$NUM"
