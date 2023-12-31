@@ -9,5 +9,5 @@
 for command in ls
 do
 echo "-----------------ls-------------------"
-echo "$command"
+echo $command
 done
